@@ -6,6 +6,7 @@ export default {
     orders: '注文',
     finance: '財務',
     demandForecast: '需要予測',
+    restocking: '補充',
     companyName: '触媒コンポーネンツ',
     subtitle: '在庫管理システム'
   },
@@ -378,5 +379,37 @@ export default {
     'Premier Industries': 'プレミア工業',
     'Stellar Components Ltd': 'ステラコンポーネンツ',
     'Dynamic Systems Ltd': 'ダイナミックシステムズ'
+  },
+
+  // Restocking
+  restocking: {
+    title: '補充',
+    description: '需要予測に基づいて在庫補充を最適化',
+    budgetSlider: '補充予算',
+    recommendations: '推奨品目',
+    noRecommendations: '予算内の補充推奨はありません',
+    placeOrder: '注文する',
+    orderPlaced: '補充注文が正常に発注されました',
+    totalCost: '合計費用',
+    remainingBudget: '残り予算',
+    itemsSelected: '{count} 品目選択済み',
+    table: {
+      sku: 'SKU',
+      itemName: '品名',
+      demandGap: '需要ギャップ',
+      trend: 'トレンド',
+      unitCost: '単価',
+      quantity: '推奨数量',
+      totalCost: '小計',
+      priority: '優先度スコア'
+    },
+    submittedOrders: '発注済み補充注文',
+    leadTime: 'リードタイム',
+    days: '日',
+    orderNumber: '注文番号',
+    orderDate: '注文日',
+    expectedDelivery: '予定納期',
+    status: 'ステータス',
+    submitted: '発注済み'
   }
 }
